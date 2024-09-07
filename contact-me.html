@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact me</title>
+    <link rel="icon" type="image/png" href="images/flower-icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            My Portfolio!
+        </h1>
+        <nav>
+            <button>
+                <a href="index.html"> <img src="images/home-icon.png" class="image">
+                </a>
+            </button>
+
+            <button>
+                <a href="about-me.html">About me
+                </a>
+            </button>
+
+            <button>
+                <a href="contact-me.html">Contact me
+                </a>
+            </button>
+            <br>
+        </nav>
+    </header>
+
+
+    <main>
+        <h2>Contact me</h2>
+        <form action="phpfile/index.php" method="post">
+
+            <label for="Name"><b>Name</b></label>
+            <input type="text" id="Name" name="Name" required>
+            <br>
+            <label for="Email"><b>Email</b></label>
+            <input type="email" id="Email" name="Email" required>
+            <br>
+            <label for="Number"><b>Number (not required)</b></label>
+            <input type="text" id="Number" name="Number" placeholder="Example: 5141234567" pattern="[0-9]{10}">
+            <br>
+            <label for="Message"><b>Message</b></label>
+            <textarea id="Message" name="Message" rows="16" cols="80" minlength="10" required></textarea>
+            <br>
+            <input type="submit" class="submit">
+        </form>
+        <br>
+    </main>
+
+    <footer>
+        <hr>
+        Abdellah B.<br>2024
+    </footer>
+</body>
+
+</html>

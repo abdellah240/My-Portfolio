@@ -1,0 +1,124 @@
+@font-face {
+    src: url(fonts/Roboto-Light.ttf);
+    font-family: RobotoLight;
+}
+
+@font-face {
+    src: url(fonts/Montserrat-Light.ttf);
+    font-family: Monsterrat;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: RobotoLight, Arial, sans-serif;
+}
+
+footer {
+    margin: 10px;
+    font-family: RobotoLight, Arial, sans-serif;
+    font-size: 0.8em;
+}
+
+span.MyPortfolio {
+    font-weight: 600;
+}
+
+span.MyPortfolio:hover {
+    text-shadow: rgb(218, 170, 50) 1px 0px 1px;
+}
+h1{
+    text-align:center;
+}
+h2 {
+    font-size: 1.5em;
+    font-family: Monsterrat, Arial, sans-serif;
+    margin-bottom: 12.5px;
+}
+
+h3 {
+    font-size: 1.1em;
+    font-family: RobotoLight, Arial, sans-serif;
+}
+
+
+header {
+    padding-top: 1px;
+    background-color: gray;
+    font-family: Monsterrat, Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    margin: 0px;
+}
+
+nav button {
+    display: block;
+    float: left;
+    height: 35px;
+    background-color: rgb(53, 53, 53);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+nav button:hover {
+    box-shadow: 4px 4px black;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 15px;
+    font-family: Monsterrat, Arial, sans-serif;
+}
+
+nav .image {
+    height: 17.5px !important;
+}
+
+form {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+}
+
+form label {
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+
+form textarea {
+    width: 700px;
+    min-width: 255px;
+}
+
+.submit {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: RobotoLight, Arial, sans-serif;
+
+}
+
+.submit:hover {
+    box-shadow: 3px 3px black;
+}
+
+input {
+    padding: 5px;
+}
