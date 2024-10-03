@@ -9,15 +9,13 @@
 }
 
 body {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 5px;
+    margin: 0 0;
 }
 
 main {
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 0 10%;
     font-family: RobotoLight, Arial, sans-serif;
+
 }
 
 footer {
@@ -26,24 +24,23 @@ footer {
     font-size: 0.8em;
 }
 
-span.MyPortfolio {
+span.DynamicSelf {
     font-weight: 600;
 }
 
-span.MyPortfolio:hover {
+span.DynamicSelf:hover {
     text-shadow: rgb(218, 170, 50) 1px 0px 1px;
 }
 
 h1 {
     text-align: center;
     font-size: xxx-large;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
 }
 
 h2 {
     font-size: xx-large;
     font-family: Monsterrat, Arial, sans-serif;
-    margin-bottom: 12.5px;
-    padding: 10px;
 }
 
 h3 {
@@ -62,13 +59,13 @@ h4 {
 
 header {
     padding-top: 1px;
-    background-color: gray;
+    background-color: #e5eaf5;
     font-family: Monsterrat, Arial, sans-serif;
 }
 
 nav {
     display: flex;
-    margin: 0px;
+    margin: 0 10%;
 }
 
 nav button {
@@ -111,8 +108,11 @@ form label {
 }
 
 form textarea {
-    width: 700px;
+    width: 500px;
     min-width: 255px;
+    height: 150px;
+    padding:5px;
+    font-family: RobotoLight, Arial, sans-serif;
 }
 
 .submit {
@@ -140,8 +140,8 @@ input {
 #me {
     flex-shrink: 0;
     max-width: 200px;
-    border-radius: 10px;
-    border: 5px solid black;
+    border-radius: 5px;
+    border: 3px solid black;
 
 }
 
@@ -154,7 +154,7 @@ input {
 
 #about-me-text {
     font-size: larger;
-    padding: 40px;
+    padding: 25px;
     margin-left: 50px;
 }
 
@@ -186,4 +186,3 @@ input {
     font-size: 1.4em;
     color: rgb(53, 53, 53);
 }
-
